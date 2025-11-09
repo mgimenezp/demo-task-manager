@@ -10,7 +10,7 @@ Aplicación web Java simple con Spring Boot, Jenkins y Git.
    ```bash
    mvn spring-boot:run
    ```
-3. Abrir [http://localhost:8080](http://localhost:8080)
+3. Abrir [http://localhost:8088](http://localhost:8088)
 
 ## ⚙️ Jenkins
 
