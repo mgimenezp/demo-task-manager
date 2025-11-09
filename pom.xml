@@ -9,11 +9,17 @@
     <packaging>jar</packaging>
     <name>Task Manager Demo</name>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.3</version>
-    </parent>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.3</version>
+		<relativePath/> <!-- 🔹 evita que busque en disco -->
+	</parent>
+
+	<properties>
+		<java.version>21</java.version> <!-- o 21 según tu JDK -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
     <dependencies>
         <dependency>
